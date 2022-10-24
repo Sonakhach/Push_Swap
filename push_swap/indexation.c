@@ -19,7 +19,7 @@ void	alg_a1_to_b(t_data *s)
 
 	counter = 0;
 	x = 13;
-	if (count_a_stack(s) > 500)
+	if (count_a_stack(s) > 100)
 		x = 30;
 	while (s->a)
 	{
